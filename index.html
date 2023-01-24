@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário HTML5</title>
+</head>
+
+<body>
+    <div class="border">
+        <form action="" method="POST" enctype="multipart/form-data">
+
+            <h2>Cadastro HTML5</h2>
+            <label class="button ">
+                Nome:
+                <input autocomplete="additional-name" placeholder="digite seu nome">
+            </label>
+            <label class="button ">
+                Email:
+                <input autocomplete="email" placeholder="digite seu email" name="email">
+            </label>
+            <label class="button ">
+                Idade:
+                <input type="number" minlength="12">
+            </label>
+            <label class="button">
+                Data de Nascimento
+                <input type="date">
+            </label>
+            <label class="button" >
+               <p > Onde você possui conta:</p>
+                <div  id="social-network">
+                    Instagram<input type="checkbox" name="rede" value="1" id="bill">
+                    Facebook <input type="checkbox" name="rede" value="2" id="bill">
+
+                    Youtube
+                    <input type="checkbox" name="rede" value="3" id="bill">
+                </div>
+            </label>
+
+            <label class="button" id="genre">
+                 <p> Sexo:</p>
+                <div>
+                    Feminino<input type="radio" name=" sexo" value="s" id="sex">
+
+                    Masculino
+                    <input type="radio" name=" sexo" value="s" id="sex">
+                </div>
+
+            </label>
+            <label class="button">
+               <p>Cor dos Olhos</p> 
+
+                <input type="color" name="color" id="eyes">
+
+            </label>
+
+            <label class="button">
+                Biografia<textarea name="resumo" id="resumo" cols="30" rows="10"></textarea>
+
+            </label>
+            <label class="button">
+                Foto do perfil
+                <input type="file" accept="png">
+
+            </label>
+            <div></div>
+
+            <label class="button">
+                Telefone
+                <input type="tel">
+            </label>
+            <label class="button">
+                Link para perfil do Facebook
+                <input type="url">
+            </label>
+
+            <label class="button">
+                Senha
+                <input type="password" minlength="6" maxlength="8">
+            </label>
+            <form action="" method="POST" enctype="multipart/form-data">
+                <button type="reset"class="options">Limpar</button >
+                    <button type="submit"class="options">Enviar Dados </button>
+                </label>
+            </form>
+    </div>
+</body>
+
+</html>

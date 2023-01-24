@@ -1,0 +1,60 @@
+* {
+    background-color: #c4e6ead6;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #0e1b1d;
+ }
+ 
+ input {
+    display: block;
+    margin: 5px 0px;
+    border-color:  rgb(150, 2, 255);
+ }
+ 
+ .button {
+    padding: 0px;
+ }
+ 
+ #bill {
+    display: inline;
+ }
+ 
+ #sex {
+    display: inline-block;
+ }
+ 
+ #eyes {
+    margin-bottom: 20px;
+ }
+ 
+ .border {
+    border-top: 3px solid #f69400;
+    border-bottom: 3px solid #f69400;
+    border-left: 3px solid #f69400;
+    border-right: 3px solid #f69400;
+    padding: 10px;
+ 
+ }
+ 
+ #resumo {
+    display: block;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    border-color: rgb(157, 0, 255);
+ }
+ 
+ .options {
+    background-color: rgb(232, 123, 6);
+    border-radius: 8px;
+    cursor: pointer;
+    color: #03211f;
+    border-color: rgb(133, 2, 255);
+    padding: 8px 8px;
+    font-size: 15px;
+ }
+ h2{
+    font-size: 35px;
+    padding: 0px 45px;
+ }
+                                                                
